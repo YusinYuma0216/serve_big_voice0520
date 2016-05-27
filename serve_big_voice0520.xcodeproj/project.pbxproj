@@ -19,6 +19,7 @@
 		AA489A931CEF196100024DAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA489A921CEF196100024DAF /* HomeViewController.swift */; };
 		AA489A951CEF1CD300024DAF /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA489A941CEF1CD300024DAF /* RankingViewController.swift */; };
 		AA489A971CEF200300024DAF /* StringExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA489A961CEF200300024DAF /* StringExtensionsViewController.swift */; };
+		AA489A991CEF639700024DAF /* ExpressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA489A981CEF639700024DAF /* ExpressionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AA489A921CEF196100024DAF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AA489A941CEF1CD300024DAF /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		AA489A961CEF200300024DAF /* StringExtensionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionsViewController.swift; sourceTree = "<group>"; };
+		AA489A981CEF639700024DAF /* ExpressionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				AA489A921CEF196100024DAF /* HomeViewController.swift */,
 				AA489A901CEF191D00024DAF /* CountdownViewController.swift */,
 				AA489A8E1CEF18BC00024DAF /* RecordingViewController.swift */,
+				AA489A981CEF639700024DAF /* ExpressionViewController.swift */,
 				AA489A941CEF1CD300024DAF /* RankingViewController.swift */,
 				AA489A961CEF200300024DAF /* StringExtensionsViewController.swift */,
 				AA489A621CEF184B00024DAF /* ViewController.swift */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA489A991CEF639700024DAF /* ExpressionViewController.swift in Sources */,
 				AA489A971CEF200300024DAF /* StringExtensionsViewController.swift in Sources */,
 				AA489A931CEF196100024DAF /* HomeViewController.swift in Sources */,
 				AA489A911CEF191D00024DAF /* CountdownViewController.swift in Sources */,
