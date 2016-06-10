@@ -13,6 +13,7 @@ import MediaPlayer
 
 
 
+
 class RecordingViewController: UIViewController,AVAudioRecorderDelegate {
     //appDelegate宣言
     @IBOutlet weak var timelabel: UILabel!
@@ -21,7 +22,6 @@ class RecordingViewController: UIViewController,AVAudioRecorderDelegate {
     //    @IBOutlet var label: UILabel!
     var count: Float = 03.00
     var timer: NSTimer = NSTimer()
-    
     
     
     //audio系宣言
@@ -35,6 +35,8 @@ class RecordingViewController: UIViewController,AVAudioRecorderDelegate {
     var toResultButton: UIButton!
 
     var power : Float!
+    
+    var bgImage: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -134,7 +136,8 @@ class RecordingViewController: UIViewController,AVAudioRecorderDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let nextVC: ExpressionViewController = (segue.destinationViewController as? ExpressionViewController)!
-        nextVC.score = power
+        nextVC.score =  Int(power)
+        
         
     }
     

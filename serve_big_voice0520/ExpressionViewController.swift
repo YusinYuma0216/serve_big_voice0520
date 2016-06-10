@@ -8,9 +8,15 @@
 
 import UIKit
 
+
+
 class ExpressionViewController: UIViewController {
+   
+    @IBOutlet var label :UILabel!
+
     
-    var score: Float = 0
+    var score:  Int!
+    var displayScore:  Int!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +24,9 @@ class ExpressionViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print(score)
+        
+        label.text = String(score+80)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,8 +42,10 @@ class ExpressionViewController: UIViewController {
 }
 
      var toResultButton: UIButton!
+
+
     
-//    @IBOutlet var label
+
 
 
     /*
